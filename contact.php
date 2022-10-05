@@ -2,7 +2,7 @@
 
 // Email configuration
 $from = 'Email received from <info@yourdomain.com>';
-$sendTo = 'Email sent to <info@yourdomain.com>';
+$sendTo = 'Email sent to <chivoomodu@gmail.com>';
 $subject = 'You have received a new email';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Your message has been sent successfully!';
@@ -44,3 +44,4 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+
